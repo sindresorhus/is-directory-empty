@@ -1,0 +1,48 @@
+{
+	"name": "is-directory-empty",
+	"version": "0.0.0",
+	"description": "Check if a directory is empty",
+	"license": "MIT",
+	"repository": "sindresorhus/is-directory-empty",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"test": "xo && ava && tsc index.d.ts"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"directory",
+		"folder",
+		"empty",
+		"fs",
+		"filesystem",
+		"check",
+		"detect",
+		"is",
+		"path",
+		"contents",
+		"read"
+	],
+	"devDependencies": {
+		"ava": "^6.1.3",
+		"tempy": "^3.1.0",
+		"typescript": "^5.5.4",
+		"xo": "^0.59.2"
+	}
+}
